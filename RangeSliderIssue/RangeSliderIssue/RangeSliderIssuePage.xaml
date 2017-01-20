@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage x:Class="RangeSliderIssue.RangeSliderIssuePage"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:RangeSliderIssue">
+     <StackLayout Orientation="Vertical">
+        <Label Margin="12,40,12,0"
+               HorizontalOptions="Center"
+               Font="Bold,20"
+               Text="Sample Project on Charts" />
+
+        <Grid>
+            <local:CustomChartView WidthRequest="200" HeightRequest="200" />
+
+            <StackLayout HorizontalOptions="Center"
+                         VerticalOptions="Center"
+                         Orientation="Vertical"
+                         Spacing="0">
+
+                <Label HorizontalOptions="Center"
+                       VerticalOptions="Center"
+                       Font="Bold,16"
+                       Text="50%" />
+                <Label HorizontalOptions="Center"
+                       VerticalOptions="Center"
+                       FontSize="14"
+                       Text="On Track" />
+            </StackLayout>
+
+        </Grid>
+
+    </StackLayout>
+</ContentPage>

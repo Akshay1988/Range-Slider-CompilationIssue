@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RangeSliderIssue", "RangeSliderIssue\RangeSliderIssue.csproj", "{735BA27E-764E-4415-9E38-D791515BA66C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RangeSliderIssue.Droid", "Droid\RangeSliderIssue.Droid.csproj", "{00E46E17-04F2-4763-B59F-4353FFEB443A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{735BA27E-764E-4415-9E38-D791515BA66C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{735BA27E-764E-4415-9E38-D791515BA66C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{735BA27E-764E-4415-9E38-D791515BA66C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{735BA27E-764E-4415-9E38-D791515BA66C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00E46E17-04F2-4763-B59F-4353FFEB443A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00E46E17-04F2-4763-B59F-4353FFEB443A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00E46E17-04F2-4763-B59F-4353FFEB443A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00E46E17-04F2-4763-B59F-4353FFEB443A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
